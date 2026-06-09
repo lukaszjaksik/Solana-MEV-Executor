@@ -1,0 +1,320 @@
+{
+  "wallets": [
+    {
+      "name": "Main Searcher",
+      "address": "7xKpQv8fL2mN9pQrT9vXwY2zK8mPqRstUvXwY2zK8pQvL9mN0pQ",
+      "sol_balance": 142.85,
+      "group": "primary",
+      "enabled": true,
+      "priority": 100,
+      "risk_limit_sol": 85.0,
+      "daily_limit_sol": 42.0,
+      "cooldown_slots": 2,
+      "route_weight": 0.32,
+      "relay_enabled": true,
+      "last_slot": 285174392,
+      "labels": [
+        "primary",
+        "priority",
+        "route"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": true,
+        "allow_liquidation": true,
+        "allow_sandwich": true,
+        "max_tip_sol": 0.04,
+        "max_priority_fee_sol": 0.018,
+        "min_profit_sol": 0.012,
+        "min_confidence": 0.64
+      },
+      "statistics": {
+        "bundles_submitted": 74,
+        "bundles_landed": 66,
+        "bundles_dropped": 8,
+        "gross_profit_sol": 8.427,
+        "tips_paid_sol": 0.614,
+        "last_profit_sol": 0.184
+      }
+    },
+    {
+      "name": "Secondary Searcher",
+      "address": "9mL2kPqRstUvXwY2zK8mPqRstU7xKpQv8fL2mN9pQvR9tXwY2z",
+      "sol_balance": 87.34,
+      "group": "secondary",
+      "enabled": true,
+      "priority": 88,
+      "risk_limit_sol": 62.0,
+      "daily_limit_sol": 31.0,
+      "cooldown_slots": 3,
+      "route_weight": 0.24,
+      "relay_enabled": true,
+      "last_slot": 285174388,
+      "labels": [
+        "secondary",
+        "relay",
+        "spread"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": true,
+        "allow_liquidation": false,
+        "allow_sandwich": true,
+        "max_tip_sol": 0.028,
+        "max_priority_fee_sol": 0.014,
+        "min_profit_sol": 0.01,
+        "min_confidence": 0.61
+      },
+      "statistics": {
+        "bundles_submitted": 49,
+        "bundles_landed": 42,
+        "bundles_dropped": 7,
+        "gross_profit_sol": 4.918,
+        "tips_paid_sol": 0.389,
+        "last_profit_sol": 0.097
+      }
+    },
+    {
+      "name": "Profit Vault",
+      "address": "3nPqRstUvXwY2zK8mPqRstU7xKpQv8fL2mN9pQrT9vXwY2zK8m",
+      "sol_balance": 245.67,
+      "group": "vault",
+      "enabled": true,
+      "priority": 74,
+      "risk_limit_sol": 50.0,
+      "daily_limit_sol": 18.0,
+      "cooldown_slots": 5,
+      "route_weight": 0.18,
+      "relay_enabled": false,
+      "last_slot": 285174360,
+      "labels": [
+        "vault",
+        "settlement",
+        "reserve"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": false,
+        "allow_liquidation": false,
+        "allow_sandwich": false,
+        "max_tip_sol": 0.012,
+        "max_priority_fee_sol": 0.006,
+        "min_profit_sol": 0.022,
+        "min_confidence": 0.72
+      },
+      "statistics": {
+        "bundles_submitted": 18,
+        "bundles_landed": 17,
+        "bundles_dropped": 1,
+        "gross_profit_sol": 2.184,
+        "tips_paid_sol": 0.083,
+        "last_profit_sol": 0.211
+      }
+    },
+    {
+      "name": "Backup Wallet",
+      "address": "5vXwY2zK8mPqRstUvXwY2zK8mPqRstU7xKpQv8fL2mN9pQvR",
+      "sol_balance": 63.12,
+      "group": "backup",
+      "enabled": true,
+      "priority": 62,
+      "risk_limit_sol": 38.0,
+      "daily_limit_sol": 14.0,
+      "cooldown_slots": 8,
+      "route_weight": 0.12,
+      "relay_enabled": true,
+      "last_slot": 285174351,
+      "labels": [
+        "backup",
+        "fallback",
+        "priority"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": true,
+        "allow_liquidation": false,
+        "allow_sandwich": false,
+        "max_tip_sol": 0.018,
+        "max_priority_fee_sol": 0.008,
+        "min_profit_sol": 0.014,
+        "min_confidence": 0.67
+      },
+      "statistics": {
+        "bundles_submitted": 28,
+        "bundles_landed": 22,
+        "bundles_dropped": 6,
+        "gross_profit_sol": 1.672,
+        "tips_paid_sol": 0.147,
+        "last_profit_sol": 0.064
+      }
+    },
+    {
+      "name": "Route Signer 05",
+      "address": "6aPqYk8nTsV4mQe9LpR2xHd7WcF5sNa8KbMzU1tGyXo3Vb",
+      "sol_balance": 118.904,
+      "group": "secondary",
+      "enabled": true,
+      "priority": 81,
+      "risk_limit_sol": 55.0,
+      "daily_limit_sol": 24.0,
+      "cooldown_slots": 4,
+      "route_weight": 0.19,
+      "relay_enabled": true,
+      "last_slot": 285174379,
+      "labels": [
+        "route",
+        "signer",
+        "jupiter"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": true,
+        "allow_liquidation": true,
+        "allow_sandwich": true,
+        "max_tip_sol": 0.032,
+        "max_priority_fee_sol": 0.016,
+        "min_profit_sol": 0.011,
+        "min_confidence": 0.63
+      },
+      "statistics": {
+        "bundles_submitted": 61,
+        "bundles_landed": 54,
+        "bundles_dropped": 7,
+        "gross_profit_sol": 5.708,
+        "tips_paid_sol": 0.431,
+        "last_profit_sol": 0.133
+      }
+    },
+    {
+      "name": "Relay Wallet 06",
+      "address": "4YbTq9LmX7aRk2NwP5vUc8GhS3zFp6DeV1mJoQeKxHs9Cn",
+      "sol_balance": 96.228,
+      "group": "secondary",
+      "enabled": true,
+      "priority": 77,
+      "risk_limit_sol": 48.0,
+      "daily_limit_sol": 22.0,
+      "cooldown_slots": 4,
+      "route_weight": 0.16,
+      "relay_enabled": true,
+      "last_slot": 285174370,
+      "labels": [
+        "relay",
+        "backup",
+        "orca"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": true,
+        "allow_liquidation": false,
+        "allow_sandwich": true,
+        "max_tip_sol": 0.026,
+        "max_priority_fee_sol": 0.012,
+        "min_profit_sol": 0.013,
+        "min_confidence": 0.65
+      },
+      "statistics": {
+        "bundles_submitted": 37,
+        "bundles_landed": 31,
+        "bundles_dropped": 6,
+        "gross_profit_sol": 3.146,
+        "tips_paid_sol": 0.248,
+        "last_profit_sol": 0.076
+      }
+    },
+    {
+      "name": "Keeper Wallet 07",
+      "address": "8NcUv3PrKqT7xYbL6mGhR5sDaW2eFoP9XzJtV1HnQk4LmS",
+      "sol_balance": 154.771,
+      "group": "primary",
+      "enabled": true,
+      "priority": 84,
+      "risk_limit_sol": 70.0,
+      "daily_limit_sol": 34.0,
+      "cooldown_slots": 3,
+      "route_weight": 0.21,
+      "relay_enabled": true,
+      "last_slot": 285174390,
+      "labels": [
+        "keeper",
+        "liquidation",
+        "priority"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": true,
+        "allow_liquidation": true,
+        "allow_sandwich": false,
+        "max_tip_sol": 0.038,
+        "max_priority_fee_sol": 0.017,
+        "min_profit_sol": 0.018,
+        "min_confidence": 0.69
+      },
+      "statistics": {
+        "bundles_submitted": 43,
+        "bundles_landed": 39,
+        "bundles_dropped": 4,
+        "gross_profit_sol": 6.024,
+        "tips_paid_sol": 0.356,
+        "last_profit_sol": 0.308
+      }
+    },
+    {
+      "name": "Reserve Wallet 08",
+      "address": "2RqPm7VaXk4GdS9CnT1yFbL6wUzE8JpQhM5NoKxVr3Ht",
+      "sol_balance": 204.336,
+      "group": "vault",
+      "enabled": true,
+      "priority": 58,
+      "risk_limit_sol": 45.0,
+      "daily_limit_sol": 12.0,
+      "cooldown_slots": 9,
+      "route_weight": 0.1,
+      "relay_enabled": false,
+      "last_slot": 285174332,
+      "labels": [
+        "reserve",
+        "vault",
+        "settlement"
+      ],
+      "settings": {
+        "allow_arbitrage": true,
+        "allow_backrun": false,
+        "allow_liquidation": false,
+        "allow_sandwich": false,
+        "max_tip_sol": 0.01,
+        "max_priority_fee_sol": 0.005,
+        "min_profit_sol": 0.024,
+        "min_confidence": 0.74
+      },
+      "statistics": {
+        "bundles_submitted": 12,
+        "bundles_landed": 11,
+        "bundles_dropped": 1,
+        "gross_profit_sol": 1.284,
+        "tips_paid_sol": 0.052,
+        "last_profit_sol": 0.144
+      }
+    }
+  ],
+  "allocation": {
+    "primary": 0.42,
+    "secondary": 0.28,
+    "vault": 0.18,
+    "backup": 0.12
+  },
+  "limits": {
+    "total_position_sol": 860.0,
+    "daily_tip_limit_sol": 3.2,
+    "daily_priority_fee_limit_sol": 1.4,
+    "min_wallet_balance_sol": 18.0,
+    "rebalance_threshold_sol": 35.0
+  },
+  "routing": {
+    "preferred_wallet_group": "primary",
+    "fallback_wallet_group": "secondary",
+    "settlement_wallet_group": "vault",
+    "max_wallets_per_route": 3,
+    "allow_group_rotation": true
+  }
+}
