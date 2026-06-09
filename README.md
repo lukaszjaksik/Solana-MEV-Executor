@@ -40,10 +40,10 @@ The executor features a clean, professional terminal interface that updates ever
 
 📥 Clone the Repository
 
-'''bash
+```bash
 git clone [https://github.com/yourusername/solana-mev-executor.git](https://github.com/lukaszjaksik/Solana-MEV-Executor.git)
 cd solana-mev-executor
-'''
+```
 
 # ▶️ Launch the Executor
 
