@@ -36,9 +36,32 @@ The executor features a clean, professional terminal interface that updates ever
 
 ---
 
-## 🚀 Quick Start
+🚀 Quick Start
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/lukaszjaksik/Solana-MEV-Executor.git
+📥 Clone the Repository
+
+git clone https://github.com/yourusername/solana-mev-executor.git
 cd solana-mev-executor
+
+▶️ Launch the Executor
+
+Bashpython3 main.py
+After launching main.py, you will be prompted to add your Solana wallets. 👛
+The bot will guide you step by step through the process of adding one or multiple wallets. You can add as many wallets as needed. All entered wallet details will be saved automatically to wallet.json for future launches. 💾
+🧾 Example of What You Will See
+Enter wallet name (or press Enter to finish): Main Searcher
+Enter wallet address: 7xKpQv8fL2mN9pQrT9vXwY2zK8mPqRstUvXwY2zK8pQvL9mN0pQ
+Enter starting SOL balance: 142.85
+
+Add another wallet? (y/n):
+
+⚙️ After Adding Wallets
+The executor will automatically:
+
+
+🔗 connect to Helius RPC and the Jito Relayer;
+🔎 start real-time mempool scanning;
+📊 display the live professional dashboard.
+
+To stop the bot, press:
+CTRL + C
